@@ -1,6 +1,6 @@
 {
   "name": "rabbitshooter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Takes a screen shot of a webpage",
   "main": "cli.js",
   "scripts": {
@@ -19,6 +19,9 @@
   ],
   "author": "rabbitear",
   "license": "ISC",
+  "bin": {
+      "rabbitshooter": "./cli.js"
+  }
   "bugs": {
     "url": "https://github.com/rabbitear/rabbitshooter/issues"
   },
