@@ -1,8 +1,18 @@
 #!/usr/bin/env node
-const argv = require('yargs').argv
 const puppeteer = require('puppeteer');
+const argv = require('yargs')
+    .usage('Usage: $0 -o [outfile] -u [url]')
+    .help('h')
+    .alias('h', 'help')
+    .alias('o', 'output')
+    .describe('o', 'output image to path/file')
+    .alias('u', 'url')
+    .describe('u', 'url to grab for screen shooting')
+    .demandOption(['o','u'])
+    .epilog('copyright 2019')
+    .argv
 
-console.log('(%s,%s)', argv.u, argv.o);
+console.log('(u=%s,o=%s)', argv.u, argv.o);
 
 (async () => {
     const browser = await puppeteer.launch();
