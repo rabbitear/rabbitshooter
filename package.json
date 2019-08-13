@@ -1,0 +1,26 @@
+{
+  "name": "rabbitshooter",
+  "version": "0.0.1",
+  "description": "Takes a screen shot of a webpage",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabbitear/rabbitshooter.git"
+  },
+  "keywords": [
+    "screenshot",
+    "webshot",
+    "web",
+    "testing",
+    "security"
+  ],
+  "author": "rabbitear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rabbitear/rabbitshooter/issues"
+  },
+  "homepage": "https://github.com/rabbitear/rabbitshooter#readme"
+}
